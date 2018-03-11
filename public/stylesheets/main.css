@@ -1,0 +1,34 @@
+
+
+.thumbnail img {
+    width: 100%;
+    height: 200px;
+    }
+.thumbnail{
+    padding: 0;
+}
+#im{
+    width: 85%;
+    height: 550px;
+    
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+i {
+    font-size: 2rem;
+}
+
+.container.main{
+    margin-top: 7.0em;
+}
+#dd{
+    display: inline;
+}
+body{
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-image: url("https://www.planwallpaper.com/static/images/Wallpapers-for-Background-HD-Wallpaper-1080x607.jpg");
+}
