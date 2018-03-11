@@ -1,0 +1,21 @@
+<% include ../header %>
+<div class="container">
+    <div class="row">
+<h1 style="text-align:center"> Create New Post</h1>
+
+        <div style="width:30%; margin: 25px auto;">
+        <form action="/campgrounds" method="post" >
+    <input class="form-control" type="text" name="name" placeholder="name">
+    <br>
+    <input class="form-control" type="text" name="image" placeholder="image url">
+    <br>
+    <input class="form-control" type="text" name="description" placeholder="description">
+    <br>
+    <button class="btn btn-md btn-primary btn-block">Submit!!</button>
+    <a href="/campgrounds">Go back</a>
+    </div>
+</form>
+
+    </div>
+</div>
+<% include ../footer %>
